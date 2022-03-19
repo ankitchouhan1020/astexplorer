@@ -1,4 +1,4 @@
-import pkg from 'tmp-bhai-lang-parser/package.json';
+import pkg from 'bhai-lang-parser/package.json';
 
 import defaultParserInterface from '../utils/defaultParserInterface';
 
@@ -14,7 +14,7 @@ export default {
   locationProps: new Set(['position']),
 
   loadParser(callback) {
-    require(['tmp-bhai-lang-parser'], parser => callback(parser.default));
+    require(['bhai-lang-parser'], parser => callback(parser.default));
   },
 
   parse(parser, code) {
