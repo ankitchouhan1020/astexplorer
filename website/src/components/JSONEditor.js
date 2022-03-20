@@ -1,11 +1,17 @@
-import CodeMirror from 'codemirror';
-import 'codemirror/mode/javascript/javascript';
-import 'codemirror/addon/fold/foldgutter';
-import 'codemirror/addon/fold/foldcode';
-import 'codemirror/addon/fold/brace-fold';
-import PropTypes from 'prop-types';
-import {subscribe, clear} from '../utils/pubsub.js';
+import 'bhailang-codemirror/mode/bhailang/bhailang';
+import 'bhailang-codemirror/addon/fold/foldgutter';
+import 'bhailang-codemirror/addon/fold/foldcode';
+import 'bhailang-codemirror/addon/fold/brace-fold';
+
 import React from 'react';
+
+import CodeMirror from 'bhailang-codemirror';
+import PropTypes from 'prop-types';
+
+import {
+  clear,
+  subscribe,
+} from '../utils/pubsub.js';
 
 export default class Editor extends React.Component {
 
@@ -28,7 +34,7 @@ export default class Editor extends React.Component {
       this.container,
       {
         value: this.props.value,
-        mode: {name: 'javascript', json: true},
+        mode: {name: 'bhailang', json: true},
         readOnly: true,
         lineNumbers: true,
         foldGutter: true,

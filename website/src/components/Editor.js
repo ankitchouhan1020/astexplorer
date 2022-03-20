@@ -1,10 +1,16 @@
-import CodeMirror from 'codemirror';
-import 'codemirror/keymap/vim';
-import 'codemirror/keymap/emacs';
-import 'codemirror/keymap/sublime';
-import PropTypes from 'prop-types';
-import {subscribe, clear} from '../utils/pubsub.js';
+import 'bhailang-codemirror/keymap/vim';
+import 'bhailang-codemirror/keymap/emacs';
+import 'bhailang-codemirror/keymap/sublime';
+
 import React from 'react';
+
+import CodeMirror from 'bhailang-codemirror';
+import PropTypes from 'prop-types';
+
+import {
+  clear,
+  subscribe,
+} from '../utils/pubsub.js';
 
 const defaultPrettierOptions = {
   printWidth: 80,

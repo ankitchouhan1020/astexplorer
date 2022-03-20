@@ -3327,6 +3327,16 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
+bhai-lang-parser@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/bhai-lang-parser/-/bhai-lang-parser-0.0.1.tgz#fbdc93c8dd44c5e2ba619d2e5444e61ef0b8c636"
+  integrity sha512-cGEDc3oR+dJ9x8JQIOsfioUJEWKZ8efqP6XJ+cqhHUvmV5hX1li6baa82V4Cc0RWiYWLckB8DVEkGhZS47CdbA==
+
+bhailang-codemirror@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/bhailang-codemirror/-/bhailang-codemirror-0.0.2.tgz#7eb0307140ffd32e021aea1781dc5b4ce1d910f1"
+  integrity sha512-93O1ngsI+ZHD5ChIF0XRhv2IsoEKNEkhEiqVLoj6iqtSPR436X+PM2D9Fq/hjEK8wR96Fu6PXCdzES0MsXssnA==
+
 big.js@^3.1.3:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/big.js/-/big.js-3.2.0.tgz#a5fc298b81b9e0dca2e458824784b65c52ba588e"
@@ -3972,11 +3982,6 @@ codemirror-graphql@^0.11.6:
   dependencies:
     graphql-language-service-interface "^2.3.3"
     graphql-language-service-parser "^1.5.2"
-
-codemirror@^5.22.0:
-  version "5.52.2"
-  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.52.2.tgz#c29e1f7179f85eb0dd17c0586fa810e4838ff584"
-  integrity sha512-WCGCixNUck2HGvY8/ZNI1jYfxPG5cRHv0VjmWuNzbtCLz8qYA5d+je4QhSSCtCaagyeOwMi/HmmPTjBgiTm2lQ==
 
 collapse-white-space@^1.0.0, collapse-white-space@^1.0.2:
   version "1.0.6"
@@ -11387,11 +11392,6 @@ timers-browserify@^2.0.4:
   integrity sha512-60aV6sgJ5YEbzUdn9c8kYGIqOubPoUdqQCul3SBAsRCZ40s6Y5cMcrW4dt3/k/EsbLVJNl9n6Vz3fTc+k2GeKQ==
   dependencies:
     setimmediate "^1.0.4"
-
-tmp-bhai-lang-parser@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/tmp-bhai-lang-parser/-/tmp-bhai-lang-parser-0.0.1.tgz#ce124c9edc7b078d8e361e544780307f926f3ce2"
-  integrity sha512-bjiA+l1YjnThBykaaOSArYrHxMeO8j9QiZdcxK6/+K6bmIKtUDbWZj73PMFzV+c2E44fTHVAgltRJYbGg5yB6A==
 
 tmp@^0.0.33:
   version "0.0.33"

@@ -1,9 +1,10 @@
-import CodeMirror from 'codemirror';
-import PropTypes from 'prop-types';
-import Editor from './Editor';
+import 'bhailang-codemirror/addon/hint/show-hint.css';
+import 'bhailang-codemirror/addon/tern/tern.css';
 
-import 'codemirror/addon/hint/show-hint.css';
-import 'codemirror/addon/tern/tern.css';
+import CodeMirror from 'bhailang-codemirror';
+import PropTypes from 'prop-types';
+
+import Editor from './Editor';
 
 let server;
 
@@ -31,8 +32,8 @@ export default class JSCodeshiftEditor extends Editor {
 function loadTern() {
   require(
     [
-      'codemirror/addon/hint/show-hint',
-      'codemirror/addon/tern/tern',
+      'bhailang-codemirror/addon/hint/show-hint',
+      'bhailang-codemirror/addon/tern/tern',
       'acorn',
     ],
     (_1, _2, acorn) => {
