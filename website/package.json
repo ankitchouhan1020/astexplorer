@@ -1,6 +1,6 @@
 {
   "name": "astexplorer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Online demo of various parsers",
   "private": true,
   "repository": {
@@ -77,7 +77,7 @@
     "babylon6": "npm:babylon@^6",
     "babylon7": "npm:@babel/parser@^7",
     "bhai-lang-parser": "^0.0.2",
-    "bhailang-codemirror": "^0.0.2",
+    "bhailang-codemirror": "^0.0.3",
     "cherow": "^1.6.8",
     "codemirror-graphql": "^0.11.6",
     "css": "^2.2.1",
