@@ -76,7 +76,7 @@
     "babylon5": "npm:babylon@^5",
     "babylon6": "npm:babylon@^6",
     "babylon7": "npm:@babel/parser@^7",
-    "bhai-lang-parser": "^0.0.1",
+    "bhai-lang-parser": "^0.0.2",
     "bhailang-codemirror": "^0.0.2",
     "cherow": "^1.6.8",
     "codemirror-graphql": "^0.11.6",
